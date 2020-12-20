@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "K9A+eW3OUC3OqKaq/Yk12kwHTgY0ELd3AuUgWyWFj4DgZywXDnbmJ67ujhFFo+QrCtgdZ2kMfBYYewFl+pCVkA==",
+  "dgSpecHash": "b6KTMUV/bOk1uAHzL5pDYVJKJZvHWTplu07p+z0dlc3aoOcv/FUNJ8kWvCJd3cWGoXuuxaje/lG6q7Sgp9KvJQ==",
   "success": true,
   "projectFilePath": "C:\\Projects\\InventoryLoginDemo\\InventoryLoginDemo.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\iamKosmic\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\iamKosmic\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
     "C:\\Users\\iamKosmic\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
   ],
