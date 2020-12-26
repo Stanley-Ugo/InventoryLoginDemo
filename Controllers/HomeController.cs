@@ -44,7 +44,6 @@ namespace InventoryLoginDemo.Controllers
         }
 
         //Log off method
-        //Log off method
         public IActionResult Logoff()
         {
             HttpContext.Session.Clear();
