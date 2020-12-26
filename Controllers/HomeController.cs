@@ -22,6 +22,7 @@ namespace InventoryLoginDemo.Controllers
             _logger = logger;
         }
 
+        //Home Index Mehod
         public IActionResult Index()
         {
             return View();
