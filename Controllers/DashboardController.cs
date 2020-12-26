@@ -9,6 +9,7 @@ namespace InventoryLoginDemo.Controllers
 {
     public class DashboardController : Controller
     {
+        //Dashboard View
         public IActionResult Index()
         {
             var token = HttpContext.Session.GetString("JWToken");
