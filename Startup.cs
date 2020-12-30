@@ -25,6 +25,7 @@ namespace InventoryLoginDemo
         {
             services.AddControllersWithViews();
 
+            //Adding the Session cookies
             services.AddSession(options =>
            {
                options.IdleTimeout = TimeSpan.FromMinutes(60);
