@@ -28,6 +28,7 @@ namespace InventoryLoginDemo
             //Adding the Session cookies
             services.AddSession(options =>
            {
+               //Setting a timeout of 60minutes
                options.IdleTimeout = TimeSpan.FromMinutes(60);
            });
         }
