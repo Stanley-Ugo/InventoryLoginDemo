@@ -39,6 +39,7 @@ namespace InventoryLoginDemo.Controllers
                     string token = await response.Content.ReadAsStringAsync();
                     HttpContext.Session.SetString("JWToken", token);
                 }
+
                 return Redirect("~/Dashboard/Index");
             }
         }
