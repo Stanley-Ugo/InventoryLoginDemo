@@ -44,6 +44,7 @@ namespace InventoryLoginDemo.Controllers
             }
         }
 
+
         //Log off method
         public IActionResult Logoff()
         {
