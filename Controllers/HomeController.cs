@@ -50,7 +50,7 @@ namespace InventoryLoginDemo.Controllers
             return Redirect("~/Home/Index");
         }
 
-        //the Privacy Mehod
+        //the Privacy Method
         public IActionResult Privacy()
         {
             return View();
