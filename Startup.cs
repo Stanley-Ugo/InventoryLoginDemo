@@ -52,6 +52,7 @@ namespace InventoryLoginDemo
             app.UseSession();
             app.UseRouting();
 
+            //Adding Authorization
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
