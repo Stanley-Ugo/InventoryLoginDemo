@@ -48,6 +48,7 @@ namespace InventoryLoginDemo
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
+            //Adding Session to the Application Pipeline
             app.UseSession();
             app.UseRouting();
 
