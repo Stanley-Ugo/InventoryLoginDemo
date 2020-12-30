@@ -12,6 +12,7 @@ namespace InventoryLoginDemo.Controllers
         //Dashboard View
         public IActionResult Index()
         {
+            //GEtiing the Web Token
             var token = HttpContext.Session.GetString("JWToken");
             return View();
         }
